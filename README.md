@@ -119,14 +119,16 @@ backend/
        * Ejecuta el script database/schema.sql para construir la estructura relacional.
 
        * Ejecuta database/seed.sql para insertar los roles y usuarios de prueba.
-    3. Despliegue del Backend:
+     
+  3. Despliegue del Backend:
 
        * Importa la carpeta backend en tu IDE (Eclipse / IntelliJ) como un proyecto Maven.
 
        * Configura tus credenciales locales de MySQL en el archivo utils/DatabaseConnection.java o context.xml.
 
        * Despliega el proyecto en Apache Tomcat. El servidor se expondrá por defecto en http://localhost:8080/SistemAcademicLima.
-    4. Despliegue del Frontend:
+      
+  4. Despliegue del Frontend:
 
        *  Abre una terminal y navega a la carpeta del cliente web.
     ```bash ```
@@ -134,7 +136,7 @@ backend/
     npm install
     ng serve --open
 
-       * La aplicación estará disponible en http://localhost:4200.
+       * La aplicación estará disponible en http://localhost:4200
 
 ## Equipo de Desarrollo
 
